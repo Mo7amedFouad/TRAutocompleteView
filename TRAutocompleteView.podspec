@@ -7,11 +7,10 @@ Pod::Spec.new do |s|
   s.license      = 'FreeBSD'
   s.author       = { "Taras Roshko" => "taras.roshko@gmail.com" }
 
-  s.source       = { :git => "https://github.com/TarasRoshko/TRAutocompleteView.git", :tag => "v1.1" }
+  s.source       = { :git => "https://github.com/TarasRoshko/TRAutocompleteView.git", :tag => "v1.2" }
   s.platform     = :ios, '5.0'
   s.source_files = 'src'
   s.requires_arc = true
   
   s.frameworks = 'CoreLocation'
-  s.dependency 'AFNetworking', '~> 1.3.0'
 end
