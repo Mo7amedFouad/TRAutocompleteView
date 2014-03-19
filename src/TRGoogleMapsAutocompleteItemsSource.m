@@ -176,7 +176,7 @@
 
 - (NSString*) autocompleteUrlFor:(NSString*)query
 {
-    NSMutableString *urlString = [NSMutableString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/autocomplete/json?input=%@",
+    NSMutableString *urlString = [NSMutableString stringWithFormat:@"https://maps.googleapis.com/maps/api/place/autocomplete/json?types=(cities)&input=%@",
                                                   [query urlEncode]];
 
     [urlString appendFormat:@"&key=%@", _apiKey];
