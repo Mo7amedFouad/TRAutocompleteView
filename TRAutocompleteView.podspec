@@ -8,9 +8,9 @@ Pod::Spec.new do |s|
   s.author       = { "Taras Roshko" => "taras.roshko@gmail.com" }
 
   s.source       = { :git => "https://github.com/TarasRoshko/TRAutocompleteView.git", :tag => "v1.2" }
-  s.platform     = :ios, '5.0'
+  s.platform     = :ios, '7.0'
   s.source_files = 'src'
   s.requires_arc = true
-  
+  s.ios.deployment_target = '7.0'
   s.frameworks = 'CoreLocation'
 end
